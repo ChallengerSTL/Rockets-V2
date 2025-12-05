@@ -1,12 +1,12 @@
 import { Box } from "@chakra-ui/react";
 
-import Navbar from "./components/Navbar";
+import Navbar from "../components/Navbar";
 import clientPromise from "../lib/mongodb";
 import dynamic from "next/dynamic";
 
 // BudgetRequest only runs in the client
 const BudgetRequest = dynamic(
-  () => import("./components/teacherView/BudgetRequest"),
+  () => import("../components/teacherView/BudgetRequest"),
   { ssr: false }
 );
 

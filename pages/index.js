@@ -14,12 +14,12 @@ import {
   Text,
 } from "@chakra-ui/react";
 
-import ItemCard from "./components/mainView/ItemCard";
-import Navbar from "./components/Navbar";
-import CartItem from "./components/mainView/CartItem";
-import Category from "./components/mainView/Category";
-import BudgetBar from "./components/mainView/BudgetBar";
-import Cart from "./components/mainView/Cart";
+import ItemCard from "../components/mainView/ItemCard";
+import Navbar from "../components/Navbar";
+import CartItem from "../components/mainView/CartItem";
+import Category from "../components/mainView/Category";
+import BudgetBar from "../components/mainView/BudgetBar";
+import Cart from "../components/mainView/Cart";
 import clientPromise from "../lib/mongodb";
 
 import { useContext, useState } from "react";

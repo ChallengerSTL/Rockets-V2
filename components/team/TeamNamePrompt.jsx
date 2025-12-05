@@ -4,7 +4,7 @@ import {
   Modal, ModalOverlay, ModalContent, ModalHeader, ModalBody, ModalFooter,
   Button, Input, FormControl, FormLabel, useDisclosure, Text
 } from "@chakra-ui/react";
-import { useTeamName } from "../../../context/TeamNameProvider";
+import { useTeamName } from "../../context/TeamNameProvider";
 
 function randomSuggestion() {
   const animals = ["Falcons", "Tigers", "Wolves", "Lions", "Hawks", "Panthers"];

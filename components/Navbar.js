@@ -14,7 +14,7 @@ import {
 } from "@chakra-ui/react";
 import { useRouter } from 'next/router';
 import TeamNameBadge from "./team/TeamNameBadge";
-import { useTeamName } from "../../context/TeamNameProvider";
+import { useTeamName } from "../context/TeamNameProvider";
 
 export default function Navbar() {
   const LOGO = 'https://www.challengertlh.com/wp-content/uploads/2015/09/siteicon.png';

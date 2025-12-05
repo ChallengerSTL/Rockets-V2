@@ -9,8 +9,8 @@ import {
   Image,
   useToast,
 } from "@chakra-ui/react";
-import CartItemsContext from "../../../context/CartItemsProvider";
-import CartTotalContext from "../../../context/CartTotalProvider";
+import CartItemsContext from "../../context/CartItemsProvider";
+import CartTotalContext from "../../context/CartTotalProvider";
 import { useContext, useState } from "react";
 
 export default function ItemCard(props) {

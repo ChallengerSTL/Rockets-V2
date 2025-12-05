@@ -7,7 +7,7 @@ import {
   ModalBody, ModalFooter, Button, Input, FormControl, FormLabel,
   Tooltip
 } from "@chakra-ui/react";
-import { useTeamName } from "../../../context/TeamNameProvider";
+import { useTeamName } from "../../context/TeamNameProvider";
 
 export default function TeamNameBadge({ variant = "subtle" }) {
   const { teamName, saveTeamName, clearTeamName } = useTeamName();

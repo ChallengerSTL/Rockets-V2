@@ -4,7 +4,7 @@ import {
   Progress,
   Text,
 } from "@chakra-ui/react";
-import CartTotalContext from '../../../context/CartTotalProvider'
+import CartTotalContext from '../../context/CartTotalProvider'
 import {useContext, useState} from "react";
 
 export default function BudgetBar() {

@@ -8,7 +8,7 @@ import { CartTotalProvider } from '../context/CartTotalProvider'
 import { CartItemsProvider } from '../context/CartItemsProvider'
 import { ApprovedItemsProvider } from '../context/ApprovedItemsProvider'
 
-import TeamNamePrompt from './components/team/TeamNamePrompt'
+import TeamNamePrompt from '../components/team/TeamNamePrompt'
 
 const config = {
   initialColorMode: 'dark',

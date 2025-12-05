@@ -19,10 +19,10 @@ import {
   useToast,
   useColorModeValue,
 } from "@chakra-ui/react";
-import CartTotalContext from "../../../context/CartTotalProvider";
+import CartTotalContext from "../../context/CartTotalProvider";
 import { useContext, useState } from "react";
-import CartItemsContext from "../../../context/CartItemsProvider";
-import ApprovedItemsContext from "../../../context/ApprovedItemsProvider";
+import CartItemsContext from "../../context/CartItemsProvider";
+import ApprovedItemsContext from "../../context/ApprovedItemsProvider";
 
 const IMAGE = "https://il.farnell.com/productimages/large/en_GB/1775788-40.jpg";
 

@@ -11,12 +11,12 @@ import {
   useToast,
 } from "@chakra-ui/react";
 
-import CartTotalContext from "../../../context/CartTotalProvider";
-import CartItemsContext from "../../../context/CartItemsProvider";
+import CartTotalContext from "../../context/CartTotalProvider";
+import CartItemsContext from "../../context/CartItemsProvider";
 import { useContext, useState, useRef } from "react";
 import CartItem from "./CartItem";
 import ApprovedItem from "./ApprovedItems";
-import ApprovedItemsContext from "../../../context/ApprovedItemsProvider";
+import ApprovedItemsContext from "../../context/ApprovedItemsProvider";
 
 export default function Cart(props) {
   const [cartTotal, setCartTotal, approvedCartTotal, setApprovedCartTotal, unapprovedCartTotal, setUnapprovedCartTotal] = useContext(CartTotalContext);
