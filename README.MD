@@ -1,7 +1,7 @@
 ﻿# Rocket Revamp - Budget App
 Built with [Next JS](https://nextjs.org/docs) with [Chakra UI](https://chakra-ui.com/docs/components) and [MongoDB](https://www.mongodb.com/docs/manual/core/databases-and-collections/). Deployed to [Vercel](https://nextjs.org/learn/basics/deploying-nextjs-app/deploy).
 > Click on the links above to learn more about each tool (linked to useful & relevant documentations). 
-
+ 
 ## Getting started
 1. Follow [this guide](https://radixweb.com/blog/installing-npm-and-nodejs-on-windows-and-mac) to install `npm`
 2. Navigate to cloned project and run `npm install` to install the required dependencies
